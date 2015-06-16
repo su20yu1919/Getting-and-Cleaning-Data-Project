@@ -1,12 +1,12 @@
 library(dplyr)
 
 ##Reading of Data
-subjet_test <- read.table("test/subject_test.txt")
-subjet_train <- read.table("train/subject_train.txt")
-X_test <- read.table("test/X_test.txt")
-X_train <- read.table("train/X_train.txt")
-y_test <- read.table("test/y-test.txt")
-y_train <- read.table("train/y-train.txt")
+subjet_test <- read.table("subject_test.txt")
+subjet_train <- read.table("subject_train.txt")
+X_test <- read.table("X_test.txt")
+X_train <- read.table("X_train.txt")
+y_test <- read.table("y-test.txt")
+y_train <- read.table("y-train.txt")
 features <- read.table("features.txt")
 
 ##Making sure the labels are correct
